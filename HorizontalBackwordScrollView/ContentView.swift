@@ -11,7 +11,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         BackwardScrollView(.horizontal, leadingInset: 50) {
-            ForEach((1...100).reversed(), id: \.self) { item in
+            ForEach((1...8).reversed(), id: \.self) { item in
                 Text("Hello \(item)")
                     .frame(maxHeight: .infinity)
                 Divider()

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D250B0602578E9D7001F8D40 /* macospreview.png in Resources */ = {isa = PBXBuildFile; fileRef = D250B05F2578E9D7001F8D40 /* macospreview.png */; };
 		D2FE6F7D2578E1F400FAD8CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FE6F7C2578E1F400FAD8CE /* AppDelegate.swift */; };
 		D2FE6F7F2578E1F400FAD8CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FE6F7E2578E1F400FAD8CE /* ContentView.swift */; };
 		D2FE6F812578E1F500FAD8CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2FE6F802578E1F500FAD8CE /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D250B05F2578E9D7001F8D40 /* macospreview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = macospreview.png; sourceTree = "<group>"; };
 		D2FE6F792578E1F400FAD8CE /* HorizontalBackwordScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizontalBackwordScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2FE6F7C2578E1F400FAD8CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2FE6F7E2578E1F400FAD8CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D250B05E2578E9B6001F8D40 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D250B05F2578E9D7001F8D40 /* macospreview.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		D2FE6F702578E1F400FAD8CE = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +71,7 @@
 				D2FE6F852578E1F500FAD8CE /* Main.storyboard */,
 				D2FE6F882578E1F500FAD8CE /* Info.plist */,
 				D2FE6F892578E1F500FAD8CE /* HorizontalBackwordScrollView.entitlements */,
+				D250B05E2578E9B6001F8D40 /* Images */,
 				D2FE6F822578E1F500FAD8CE /* Preview Content */,
 			);
 			path = HorizontalBackwordScrollView;
@@ -132,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D250B0602578E9D7001F8D40 /* macospreview.png in Resources */,
 				D2FE6F872578E1F500FAD8CE /* Main.storyboard in Resources */,
 				D2FE6F842578E1F500FAD8CE /* Preview Assets.xcassets in Resources */,
 				D2FE6F812578E1F500FAD8CE /* Assets.xcassets in Resources */,
