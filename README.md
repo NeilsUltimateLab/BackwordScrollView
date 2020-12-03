@@ -8,7 +8,7 @@ Gist: [BackwordScrollView](https://gist.github.com/NeilsUltimateLab/339cd0b4c514
 struct ContentView: View {
     var body: some View {
         BackwardScrollView(.horizontal, leadingInset: 50) {
-            ForEach((1...100).reversed(), id: \.self) { item in
+            ForEach((1...8).reversed(), id: \.self) { item in
                 Text("Hello \(item)")
                     .frame(maxHeight: .infinity)
                 Divider()
