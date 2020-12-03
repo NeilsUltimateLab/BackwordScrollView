@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D250B0602578E9D7001F8D40 /* macospreview.png in Resources */ = {isa = PBXBuildFile; fileRef = D250B05F2578E9D7001F8D40 /* macospreview.png */; };
+		D250B0632578EA29001F8D40 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D250B0622578EA29001F8D40 /* README.md */; };
 		D2FE6F7D2578E1F400FAD8CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FE6F7C2578E1F400FAD8CE /* AppDelegate.swift */; };
 		D2FE6F7F2578E1F400FAD8CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FE6F7E2578E1F400FAD8CE /* ContentView.swift */; };
 		D2FE6F812578E1F500FAD8CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2FE6F802578E1F500FAD8CE /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		D250B05F2578E9D7001F8D40 /* macospreview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = macospreview.png; sourceTree = "<group>"; };
+		D250B0622578EA29001F8D40 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D2FE6F792578E1F400FAD8CE /* HorizontalBackwordScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizontalBackwordScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2FE6F7C2578E1F400FAD8CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2FE6F7E2578E1F400FAD8CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 		D2FE6F702578E1F400FAD8CE = {
 			isa = PBXGroup;
 			children = (
+				D250B0622578EA29001F8D40 /* README.md */,
 				D2FE6F7B2578E1F400FAD8CE /* HorizontalBackwordScrollView */,
 				D2FE6F7A2578E1F400FAD8CE /* Products */,
 			);
@@ -145,6 +148,7 @@
 			files = (
 				D250B0602578E9D7001F8D40 /* macospreview.png in Resources */,
 				D2FE6F872578E1F500FAD8CE /* Main.storyboard in Resources */,
+				D250B0632578EA29001F8D40 /* README.md in Resources */,
 				D2FE6F842578E1F500FAD8CE /* Preview Assets.xcassets in Resources */,
 				D2FE6F812578E1F500FAD8CE /* Assets.xcassets in Resources */,
 			);
