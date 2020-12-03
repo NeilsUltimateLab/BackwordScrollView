@@ -20,4 +20,4 @@ struct ContentView: View {
 ```
 
 ## Output
-![](Images/macospreview.png)
+![](HorizontalBackwordScrollView/Images/macospreview.png)
